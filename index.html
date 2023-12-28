@@ -92,6 +92,7 @@
                                         <li>Data Mapping;</li>
                                         <li>Governança de Dados;</li>
                                         <li>Web Scrapping;</li>
+                                        <li>Análise Descritiva, Diagnóstica, Preditiva e Prescritiva;</li>
                                         <li>Data Ops</li>
                                     </ul>
                                 </section>
@@ -100,10 +101,10 @@
                                     <h3>Estatística e Machine Learning</h3>
                                     <ul>
                                         <li>Estatística descritiva (Localização, Dispersão, Assimetria, Curtose, Densidade);</li>
-                                        <li>Análise Descritiva, Diagnóstica, Preditiva e Prescritiva;</li>
                                         <li>Algoritmos de Regressão, Classificação, Clusterização, "Learn to Rank", Séries Temporais e Reinforcement Learning;</li>
-                                        <li>Métricas de performance (RMSE, MAE, MAPE, Confusion Matrix,
-                                            Precisão, Recall, Curva ROC, Curva Lift, AUC, Silhouette Score, DB-Index );</li>
+                                        <li>Correlação de Spearman, Weight of Evidence (WOE), Information Value (IV)</li>
+                                        <li>Métricas de performance (RMSE, MAE, MAPE, Confusion Matrix, F1-score
+                                            Precisão, Recall, Curva ROC, Curva Lift, AUC, Silhouette Score, DB-Index);</li>
                                         <li>Bibliotecas: Sklearn, Scipy, Pycaret, Statsmodels, Patsy</li>   
                                     </ul>
                                 </section>
@@ -218,7 +219,7 @@
                             <h1>Principais Projetos</h1>
                             <div class="posts">
                                 <article>
-                                    <a href="#" class="image"><img src="images/pic01.png" alt="" /></a>
+                                    <a href="https://gitlab.com/PhilippeApolinario/churn_prediction" class="image"><img src="images/pic01.png" alt="" /></a>
                                     <h2>Análise de Dados e Predição de Churn no Segmento de Telecomunicações</h2>
                                     <p>Uma empresa do setor de telecomunicações busca compreender os motivos que levam à rotatividade de seus clientes 
                                         em meio à intensa competição por preços. Os clientes podem migrar para outras operadoras em busca de ofertas mais 
@@ -230,68 +231,72 @@
                                         atendimento ao cliente, experiência do usuário, contratos e customização, bem como à fidelização do cliente. 
                                         Nesse contexto, identifiquei padrões em relação à rotatividade de clientes (Churn) e desenvolvi um modelo de machine learning 
                                         capaz de prever se o cliente continuará utilizando os serviços da empresa. A acurácia do modelo final é de 80%</p>    
-                                    <h3>Ferramentas Utilizadas</h3>
+                                    <h3>Principais Ferramentas e Técnicas Utilizadas</h3>
                                     <ul>
-                                        <li>Python (Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Xgboost e Catboost)</li>
+                                        <li>Python (Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, SciPy)</li>
+                                        <li>Machine Learning (AdaBoostClassifier, DecisionTreeClassifier, GradientBoostingClassifier, KNeighborsClassifier, LogisticRegression, RandomForestClassifier, SVC, Ensembling (Voting Classifier))</li>
+                                        <li>Métricas do Modelo (accuracy_score, roc_curve, recall_score, confusion_matrix, precision_score, f1_score)</li>
+                                        <li>Estatística (Teste de Normalidade - Valor-p)</li>
+                                        <li>Engenharia de Atribuitos (Label Enconding, Correlação de Spearman, StandardScaler)</li>
+                                        <li>Módulos em Python</li>
                                         <li>Anaconda (Jupyter Notebook)</li>
                                         <li>Git e Gitlab</li>
-                                        <li>AdaBoost Classifier, Decision Tree Classifier, Gradient Boosting Classifier, KNN,Logistic Regression, Random Forest, SVC, Ensembling (Voting Classifier)</li>
                                     </ul>
                                     <ul class="actions">
-                                        <li><a href="generic.html" class="button">Saiba mais</a></li>
+                                        <li><a href="https://gitlab.com/PhilippeApolinario/churn_prediction" class="button">Saiba mais</a></li>
                                     </ul>
                                 </article>
                                 <article>
-                                    <a href="#" class="image"><img src="images/pic02.png" alt="" /></a>
+                                    <a href="https://github.com/PhilippeApolinario/Analise-de-dados-recursos-humanos" class="image"><img src="images/pic02.png" alt="" /></a>
                                     <h2>Análise de Dados para Otimização de Processos de Contratação</h2>
                                     <p>Uma empresa de consultoria especializada em Big Data e Data Science oferece treinamentos para candidatos em potencial. 
                                         O objetivo é otimizar o processo de contratação, reduzindo custos, tempo e garantindo a qualidade do treinamento e 
-                                        do planejamento dos cursos, bem como a categorização adequada dos candidatos. O conjunto de dados utilizado foi 
-                                        desenvolvido para compreender os fatores que influenciam a decisão de uma pessoa deixar seu emprego atual.</p>
+                                        do planejamento dos cursos, bem como a categorização adequada dos candidatos.</p>
                                     <p>Durante esse processo, efetuei a limpeza e as transformações necessárias. 
                                         Foi possível identificar correlações significativas entre certos atributos e a propensão dos candidatos a 
                                         permanecer no treinamento.</p>
                                     <p>Conduzi uma análise descritiva e diagnóstica, identificando padrões nos dados e características específicas que mostraram relevância. 
                                         Essas descobertas forneceram insights valiosos para aprimorar não apenas o processo de seleção, 
                                         mas também a abordagem pedagógica dos cursos oferecidos, com o objetivo de melhorar a experiência dos participantes.</p>    
-                                    <h3>Ferramentas utilizadas</h3>
+                                    <h3>Principais Ferramentas e Técnicas Utilizadas</h3>
                                     <ul>
                                         <li>Python (Pandas, Numpy, Matplotlib, Seaborn, Plotly, Missingno e Scipy)</li>
-                                        <li>Anaconda e Jupyter Notebook</li>
+                                        <li>Estatística (Teste de Normalidade - Valor-p)</li>
+                                        <li>Engenharia de Atributos(Correlação de Spearman, Weight of Evidence (WOE), Information Value (IV))</li>
+                                        <li>Anaconda (Jupyter Notebook)</li>
                                         <li>Git e GitHub</li>
-                                        <li>Correlação, Weight of Evidence e Information Value</li>
                                     </ul>
                                     <ul class="actions">
-                                        <li><a href="generic.html" class="button">Saiba mais</a></li>
+                                        <li><a href="https://github.com/PhilippeApolinario/Analise-de-dados-recursos-humanos" class="button">Saiba mais</a></li>
                                     </ul>
                                 </article>
                                 <article>
-                                    <a href="#" class="image"><img src="images/pic03.png" alt="" /></a>
+                                    <a href="https://github.com/PhilippeApolinario/Analise-de-Sentimentos-e-Predicao-Trip-Advisor-Reviews" class="image"><img src="images/pic03.png" alt="" /></a>
                                     <h2>Análise de Sentimento e Predição Por Meio das Reviews do TripAdvisor</h2>
                                     <p>Com o aumento do acesso à informação, surgiram novas formas de selecionar os melhores hotéis. 
                                         Este conjunto de dados é composto por avaliações coletadas do TripAdvisor, permitindo a exploração 
-                                        dos elementos que tornam um hotel excelente. Talvez você até possa utilizar esse modelo em suas futuras viagens!</p>
+                                        dos elementos que tornam um hotel excelente.</p>
                                     <p>O objetivo desse conjunto de dados é realizar análise de sentimentos utilizando o 
                                         Processamento de Linguagem Natural e prever a classificação das avaliações através do desenvolvimento 
                                         de modelos de machine learning.</p>    
                                     <p>A análise de sentimentos pode ser aplicada de diversas maneiras, desde o monitoramento de marca e análise de 
-                                        produtos até o atendimento ao cliente e pesquisa de mercado. Sua aplicação agiliza e aprimora o trabalho em 
-                                        direção aos objetivos do negócio. Permite compreender melhor os clientes, possibilitando um treinamento mais 
+                                        produtos até o atendimento ao cliente e pesquisa de mercado. Permite compreender melhor os clientes, possibilitando um treinamento mais 
                                         eficaz das equipes a partir desse entendimento.</p>
-                                    <h3>Ferramentas utilizadas</h3>
+                                    <h3>Principais Ferramentas e Técnicas Utilizadas</h3>
                                     <ul>
-                                        <li>Python (Numpy, Pandas, Matplotlib, Seaborn, Plotly, Spacy, NLTK, Scikit-learn).</li>
-                                        <li>Anaconda e Jupyter Notebook</li>
+                                        <li>Python (Numpy, Pandas, Matplotlib, Seaborn, Plotly, NLTK, Scikit-learn).</li>
+                                        <li>Anaconda (Jupyter Notebook)</li>
                                         <li>Git e GitHub</li>
-                                        <li>Tokenização, Filtragem de Stopwords, Matriz TF-IDF</li>  
-                                        <li>StandardScaler, Decision Tree Classifier, Naive Bayes, Logistic Regression, Random Forest Classifier, Ensembling (VotingClassifier)</li>
+                                        <li>NLP (Tokenização, Filtragem de Stopwords, Matriz TF-IDF)</li>  
+                                        <li>Machine Learning (StandardScaler, Decision Tree Classifier, Naive Bayes, Logistic Regression, Random Forest Classifier, Ensembling - VotingClassifier)</li>
+                                        <li>Métricas do Modelo (mean_absolute_error, accuracy_score, confusion_matrix, roc_auc_score, roc_curve,auc)</li>
                                     </ul>
                                     <ul class="actions">
-                                        <li><a href="generic.html" class="button">Saiba Mais</a></li>
+                                        <li><a href="https://github.com/PhilippeApolinario/Analise-de-Sentimentos-e-Predicao-Trip-Advisor-Reviews" class="button">Saiba Mais</a></li>
                                     </ul>
                                 </article>
                                 <article>
-                                    <a href="#" class="image"><img src="images/credit-card.png" alt="" /></a>
+                                    <a href="https://github.com/PhilippeApolinario/Credit-Card-Cluster" class="image"><img src="images/credit-card.png" alt="" /></a>
                                     <h2>Segmentação de Clientes (Credit Card Cluster)</h2>
                                     <p>Esta análise se concentra em uma amostra que sintetiza o comportamento de aproximadamente 9.000 titulares de 
                                         cartões de crédito ativos ao longo dos últimos 6 meses. O objetivo primordial é realizar uma segmentação de 
@@ -299,7 +304,7 @@
                                         de marketing mais eficazes.</p>
                                     <p>Iniciando com uma análise descritiva e estatística abrangente dos dados, meu enfoque é compreender 
                                         padrões que estão presentes nos dados, detectar possíveis anomalias e realizar os necessários 
-                                        procedimentos de limpeza e transformação dos dados.</p>
+                                        procedimentos de limpeza e transformação dos dados. Os resultados também foram disponibilizados atráves de um webapp.</p>
                                     <p>No âmbito da segmentação de clientes, optei por empregar o modelo K-Means, uma técnica de agrupamento(clustering) que classifica 
                                         os titulares de cartões com base em padrões comportamentais similares. Adicionalmente, apliquei a redução de 
                                         dimensionalidade por meio do PCA (Análise de Componentes Principais) para simplificar a complexidade dos dados, 
@@ -307,24 +312,26 @@
                                     <p>Essa abordagem abrangente visa não apenas compreender os comportamentos individuais dos titulares de cartões de crédito, 
                                         mas também criar uma estrutura analítica que permita uma segmentação mais precisa e útil para o 
                                         desenvolvimento de estratégias de marketing direcionadas e eficazes.</p>         
-                                    <h3>Ferramentas Utilizadas</h3>
+                                    <h3>Principais Ferramentas e Técnicas Utilizadas</h3>
                                     <ul>
                                         <li>Python (Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn)</li>
-                                        <li>Anaconda e Jupyter Notebook</li>
-                                        <li>Streamlit (Desenvolvimento do webapp)</li>
-                                        <li>PCA, StandardScaler, K-means</li>
+                                        <li>Anaconda (Jupyter Notebook)</li>
+                                        <li>Terminal</li>
+                                        <li>Streamlit e Streamlit Cloud</li>
+                                        <li>Engenharia de Atributos (PCA, StandardScaler)</li>
+                                        <li>Machine Learning (K-means)</li>
                                     </ul>
                                     <ul class="actions">
-                                        <li><a href="generic.html" class="button">Saiba Mais</a></li>
+                                        <li><a href="https://github.com/PhilippeApolinario/Credit-Card-Cluster" class="button">Saiba Mais</a></li>
                                     </ul>
                                 </article>
                                 <article>
-                                    <a href="#" class="image"><img src="images/rfv.jpg" alt="" /></a>
-                                    <h2>Modelo de Classificação RFV com Base em Padrões de Compra</h2>
+                                    <a href="https://github.com/PhilippeApolinario/modulo-31-analise-RFV-streamlit" class="image"><img src="images/rfv.jpg" alt="" /></a>
+                                    <h2>Modelo de Classificação RFV com Base em Padrões de Compra e Criação de um Webapp com Streamlit</h2>
                                     <p>O RFV (Recência, Frequência e Valor) é uma abordagem estratégica essencial para a segmentação de clientes e 
                                         a formação de clusters com base em seus padrões de compra. O principal propósito dessa metodologia é reunir clientes 
                                         com comportamentos similares, permitindo a implementação de ações de marketing e CRM mais eficientes. 
-                                        Meu objetivo final é otimizar a personalização de conteúdo e fortalecer a retenção de clientes.</p>
+                                        Meu objetivo final é otimizar a personalização e fortalecer a retenção de clientes.</p>
                                     <p>Iniciei realizando uma análise dos dados, buscando entender o comportamento dos clientes. 
                                         Essa análise descritiva é fundamental para identificar padrões, tendências e insights que orientarão a segmentação.</p>    
                                     <p>Em seguida, realizei a automação do processo de segmentação de clientes  por meio da aplicação do RFV. Ao considerar a 
@@ -333,46 +340,49 @@
                                     <p>Para facilitar o acesso e utilização dessa estrutura, desenvolvi um webapp que disponibiliza de forma intuitiva e eficiente 
                                         os resultados da segmentação. Isso não apenas agiliza o processo, mas também permite que as equipes de marketing e 
                                         CRM direcionem suas estratégias de maneira mais precisa, promovendo uma comunicação mais personalizada e eficaz.</p>
-                                    <h3>Ferramentas Utilizadas</h3>
+                                    <h3>Ferramentas e Técnicas Utilizadas</h3>
                                     <ul>
-                                        <li> Python (Numpy, Pandas, XlsWriter)</li>
-                                        <li>Anaconda e Jupyter Notebook</li>
+                                        <li>Python (Numpy, Pandas, XlsWriter)</li>
+                                        <li>Anaconda (Jupyter Notebook)</li>
+                                        <li>Estatística Descritiva</li>
+                                        <li>Terminal</li>
                                         <li>Streamlit (Desenvolvimento do webapp) </li>
                                         <li>Render (Deploy) </li>
                                     </ul>
                                     <ul class="actions">
-                                        <li><a href="generic.html" class="button">Saiba Mais</a></li>
+                                        <li><a href="https://github.com/PhilippeApolinario/modulo-31-analise-RFV-streamlit" class="button">Saiba Mais</a></li>
                                     </ul>
                                 </article>
                                 <article>
-                                    <a href="#" class="image"><img src="images/renda.jpg" alt="" /></a>
-                                    <h2>Previsão de Renda por meio de Árvore de Regressão</h2>
+                                    <a href="https://github.com/PhilippeApolinario/Projeto-Previsao-de-Renda" class="image"><img src="images/renda.jpg" alt="" /></a>
+                                    <h2>Análise Exploratória, Previsão De Renda Por Meio de Árvore de Regressão e Criação De Um Webapp Através do Streamlit</h2>
                                     <p>Uma instituição financeira busca aprimorar a avaliação do perfil de renda de seus novos clientes, 
                                         com o objetivo de otimizar a definição dos limites de cartões de crédito.</p>
-                                    <p>Realizei a análise descritiva para compreender e organizar os dados disponíveis, 
-                                        detectando padrões em relação ao perfil de renda dos clientes.</p>
+                                    <p>Realizei a análise exploratória para compreender e organizar os dados disponíveis, 
+                                        detectando padrões em relação ao perfil de renda dos clientes. Essa análise foi disponibilizada através de um webapp.</p>
                                     <p>Na fase de modelagem, utilizei o DecisionTreeRegressor. 
                                         Essa técnica de Aprendizado de Máquina possibilita prever a renda dos clientes com base em diferentes variáveis 
                                         explicativas. Ao construir a árvore, o modelo divide iterativamente o conjunto de dados em subgrupos, 
                                         identificando as características mais relevantes para a estimativa de renda.</p>  
-                                    <p>A árvore de regressão final pode ser interpretada para extrair insights sobre as variáveis mais 
+                                    <p>A árvore de regressão final pode ser utilizada para extrair insights sobre as variáveis mais 
                                         impactantes no perfil de renda dos clientes.</p>
                                     <p>Isso resultará em uma melhor experiência para os clientes, 
                                         ao mesmo tempo em que fortalecerá a gestão de riscos da instituição.</p>              
-                                    <h3>Ferramentas Utilizadas</h3>
+                                    <h3>Ferramentas e Técnicas Utilizadas</h3>
                                     <ul>
                                         <li>Python (Pandas, Matplotlib, Seaborn, Pandas Profiling, Scikit-Learn)</li>
-                                        <li>Anaconda e Jupyter Notebook</li>
-                                        <li>Mean Squared Error</li>
+                                        <li>Anaconda (Jupyter Notebook)</li>
+                                        <li>Machine Learning e Métricas do Modelo (DecisionTreeRegressor e Mean Squared Error)</li>
+                                        <li>Terminal</li>
                                         <li>Streamlit (Desenvolvimento do webapp)</li>
-                                        <li>Render (Deploy) </li>
+                                        <li>Streamlit Cloud (Deploy) </li>
                                     </ul>
                                         <ul class="actions">
-                                        <li><a href="generic.html" class="button">Saiba Mais</a></li>
+                                        <li><a href="https://github.com/PhilippeApolinario/Projeto-Previsao-de-Renda" class="button">Saiba Mais</a></li>
                                     </ul>
                                 </article>
                                 <article>
-                                    <a href="#" class="image"><img src="images/25316.jpg" alt="" /></a>
+                                    <a href="https://github.com/PhilippeApolinario/modulo-28-streamlit" class="image"><img src="images/25316.jpg" alt="" /></a>
                                     <h2>Análise de dados de Telemarketing Ativo, Predição e Criação de um Webapp</h2>
                                     <p>Uma instituição bancária portuguesa busca aprimorar sua estratégia de marketing direto, especificamente nas campanhas baseadas 
                                         em telefonemas. Com o intuito de prever se os clientes irão contratar ou não os serviços oferecidos, 
@@ -384,15 +394,39 @@
                                         com base nas características específicas.</p>
                                     <p>Com essa abordagem, a instituição bancária estará mais bem equipada para otimizar suas estratégias de marketing 
                                         e atender melhor às necessidades de seus clientes.</p>              
-                                    <h3>Ferramentas Utilizadas</h3>
+                                    <h3>Ferramentas e Técnicas Utilizadas</h3>
                                     <ul>
                                         <li>Python (Pandas, Seaborn, Matplotlib, Python Imaging Library, XlsxWriter)</li>
-                                        <li>Anaconda e Jupyter Notebook</li>
+                                        <li>Anaconda (Jupyter Notebook)</li>
+                                        <li>Terminal</li>
                                         <li>Streamlit (Desenvolvimento do webapp)</li>
                                         <li>Render (Deploy) </li>
                                     </ul>
                                         <ul class="actions">
-                                        <li><a href="generic.html" class="button">Saiba Mais</a></li>
+                                        <li><a href="https://github.com/PhilippeApolinario/modulo-28-streamlit" class="button">Saiba Mais</a></li>
+                                    </ul>
+                                </article>
+                                <article>
+                                    <a href="https://github.com/PhilippeApolinario/Credit-score" class="image"><img src="images/credit score.jpg" alt="" /></a>
+                                    <h2>Credit Scoring Para Concessão de Crédito Usando RandomForestClassifier</h2>
+                                    <p>Desenvolvi um modelo preditivo com o propósito de identificar o risco de inadimplência em proponentes de cartão de crédito. 
+                                        O foco é capacitar o mutuário a tomar decisões informadas sobre solicitações de crédito, 
+                                        prevendo a ocorrência de atrasos superiores ou iguais a 90 dias em um horizonte de 12 meses a partir da avaliação 
+                                        do crédito.</p>
+                                    <p>Identifiquei as variáveis mais relevantes para a predição de inadimplência. Optei pelo algoritmo RandomForestClassifier na modelagem preditiva</p>  
+                                    <p>Essa ferramenta permitirá que os clientes avaliem o risco de inadimplência associado às suas solicitações de cartão de crédito, fornecendo pontuações de risco e insights interpretáveis sobre as variáveis mais influentes.</p>
+                                    <p>Com essa abordagem, a instituição bancária estará mais bem equipada para otimizar suas estratégias de marketing e atender melhor às necessidades de seus clientes.</p>              
+                                    <h3>Principais Ferramentas e Técnicas Utilizadas</h3>
+                                    <ul>
+                                        <li>Python (Pandas, Seaborn, Matplotlib, Scikit-Learn)</li>
+                                        <li>Anaconda (Jupyter Notebook)</li>
+                                        <li>Estatística Descritiva</li>
+                                        <li>Machine Learning (RandomForestClassifier)</li>
+                                        <li>Métricas do Modelo (accuracy_score, Matriz de Confusão)</li>
+                                        
+                                    </ul>
+                                        <ul class="actions">
+                                        <li><a href="https://github.com/PhilippeApolinario/Credit-score" class="button">Saiba Mais</a></li>
                                     </ul>
                                 </article>
                             </div>
